@@ -1,23 +1,25 @@
 {
   "name": "use-image-dom",
-  "version": "0.1.0",
+  "version": "1.1.0",
   "description": "custom react hook for loading images, get image loading or error state and basic props easily.",
-  "main": "index.js",
+  "main": "package/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint src --ext .js,.ts",
+    "prepublish": "tsc"
   },
-  "author": "",
+  "types": "package/index.d",
+  "author": "kukumoon",
   "license": "ISC",
   "devDependencies": {
-    "@babel/preset-typescript": "^7.12.1",
-    "@typescript-eslint/eslint-plugin": "^4.4.1",
+    "@types/react": "^16.9.55",
+    "@typescript-eslint/eslint-plugin": "^4.6.1",
     "@typescript-eslint/parser": "^4.6.1",
     "eslint": "^7.12.1",
     "eslint-config-airbnb-typescript": "^12.0.0",
-    "eslint-plugin-import": "^2.22.0",
-    "eslint-plugin-jsx-a11y": "^6.3.1",
-    "eslint-plugin-react": "^7.20.3",
-    "eslint-plugin-react-hooks": "^4.0.8",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-react-hooks": "^4.2.0",
     "typescript": "^4.0.5"
   }
 }
